@@ -1,6 +1,6 @@
 
 
-## Agentic AI RAG Project
+# Agentic AI RAG Project
 
 A **Retrieval-Augmented Generation (RAG)** AI project using **Streamlit frontend**, **Google Gemini LLM**, and multiple tools for enhanced responses.
 
