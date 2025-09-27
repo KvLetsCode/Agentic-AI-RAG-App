@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+langgraph
+langchain-core
+langchain-community
+langchain-google-genai
+python-dotenv
+requests
