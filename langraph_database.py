@@ -14,10 +14,6 @@ from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.tools import tool
 load_dotenv()
 
-os.getenv("LANGCHAIN_TRACING_V2")
-os.getenv("API key present:", bool(os.getenv("LANGCHAIN_API_KEY")))
-os.getenv("Project:", os.getenv("LANGCHAIN_PROJECT"))
-
 class ChatState(TypedDict):
     messages: Annotated[list[BaseMessage],add_messages]
 
