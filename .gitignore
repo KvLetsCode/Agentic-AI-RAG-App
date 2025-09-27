@@ -41,6 +41,8 @@ dist/
 *.log
 *.sqlite3
 *.db
+*.db-shm
+*.db-wal
 
 # Environment files
 .env.*
