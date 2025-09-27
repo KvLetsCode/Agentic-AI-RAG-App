@@ -3,7 +3,7 @@ from langraph_database import chatbot, retrieve_all_threads
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
 import uuid
 
-st.set_option("server.fileWatcherType", "none")
+
 # =========================== Utilities ===========================
 def generate_thread_id():
     return uuid.uuid4()
