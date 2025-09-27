@@ -32,6 +32,8 @@ if "thread_id" not in st.session_state:
 if "chat_threads" not in st.session_state:
     st.session_state["chat_threads"] = retrieve_all_threads()
 
+if "thread_names" not in st.session_state:
+    st.session_state["thread_names"] = {}
 
 add_thread(st.session_state["thread_id"])
 
